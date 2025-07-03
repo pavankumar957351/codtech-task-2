@@ -11,7 +11,11 @@ DURATION: 4 WEEKS
 
 MENTOR: Neela Santhosh Kumar
 DESCRIPTION : HC-05 Blutooth ModuleHi-Link (5V) 5V Relay - 4 Nos ATMEGA328P IC 28 Pin IC Base 16 Mhz Crystal Oscillator BC547 Transistor - 4 Nos 22pF Capacitor - 2 NosLED 5mm - 5 Nos IN4007 Diode - 5 Nos 1K Resistor - 9 Nos 2 Pin Screw Connector 3 Pin Screw Connector - 4 Nos TOOLS NEEDED Soldering Iron Soldering Wire FluxConnect Arduino Uno on PC Open Arduino IDE (Software) Then Go To Tools>Board>Select Arduino UnoSelect Correct Port Upload Code Below
-CIRCUIT DIAGRAM :![WhatsApp Image 2025-07-03 at 12 24 32_d5627eff](https://github.com/user-attachments/assets/aacafea9-c79b-4ab6-ba29-8caa4143f224)
+
+CIRCUIT DIAGRAM :
+
+![WhatsApp Image 2025-07-03 at 12 24 32_d5627eff](https://github.com/user-attachments/assets/aacafea9-c79b-4ab6-ba29-8caa4143f224)
+
 CODE:
 /*
 Relay IN1 connected to PinOut 2 Arduino
@@ -82,9 +86,13 @@ if( Serial.available() >0 ) {
  digitalWrite(relay4,LOW);
 }
 }
+
 OUTPUT :
+
 ![WhatsApp Image 2025-07-03 at 12 24 33_3b07ffa8](https://github.com/user-attachments/assets/0734ec34-83f1-46f5-848c-b2d93d0d47bd)
+
 ![WhatsApp Image 2025-07-03 at 12 24 33_225fd8d6](https://github.com/user-attachments/assets/221b4ef1-5e69-4e9f-bf28-bc558ce763d0)
+
 ![WhatsApp Image 2025-07-03 at 12 24 33_119521ec](https://github.com/user-attachments/assets/3a23d588-b7e1-45ea-ab0b-77d532bb7639)
 
 WORKING DEMO :
